@@ -87,6 +87,11 @@ h3 , .red-title{
         margin: 2vw 1vw 1vw 1vw;
     }
 
+    .locaux_img img, .events_img img {
+        margin: auto;
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 960px){
