@@ -76,7 +76,7 @@ img{
     section article{
         display: flex;
         flex-direction: column;
-        width: 60%;
+        width: 80%;
         height: auto;
     }
 
@@ -88,6 +88,7 @@ img{
     img, p{
         display: block;
         margin: auto;
+        margin-bottom:10px;
     }
 
     img{
