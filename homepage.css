@@ -141,13 +141,15 @@ h3.red-title {
 @media screen and (min-width:961px) {
 
     .navblock {
-        padding-top:12px;
         position: sticky;
         top: 0;
         background-color: rgba(255, 255, 255, 0.712);
         height: 35px;
+        display: flex;
+        align-content: center;
 
     }
+
 
     .navi{
         font-size: 1.1rem;
