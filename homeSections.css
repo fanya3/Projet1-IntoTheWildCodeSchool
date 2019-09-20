@@ -1,0 +1,147 @@
+
+#Locaux, #Events {
+    background-color:rgba(54, 42, 35, 0.877);
+    mix-blend-mode: multiply;
+}
+
+#Trombi {
+    background-color:rgba(240, 237, 235, 0.892);
+    mix-blend-mode: multiply;
+}
+
+
+h3 , .red-title{
+    text-align: center;
+}
+
+
+.button {
+    padding : 0.8em;
+    color: #F0EDEB;
+    font-size: 1rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F0EDEB;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    font-family: 'Rubik', sans-serif;
+}
+
+.button:hover{
+    background-color: #F0EDEB;
+    color: rgba(54, 42, 35);
+}
+
+.button-red {
+    padding : 0.8em;
+    color:  #E63C1F;
+    font-size: 1rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #E63C1F;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    font-family: 'Rubik', sans-serif;
+}
+
+.button-red:hover {
+    background-color:#E63C1F;
+    color:  #F0EDEB;
+}
+
+
+@media screen and (min-width: 961px){
+
+    #home_sections{
+        display: flex;
+        width: 90%;
+        margin: 70px auto 70px auto;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    #Locaux , #Trombi , #Events{
+        margin: 10px;
+        width: 28%;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;           
+    }
+
+    .locaux_img , .trombi_img, .events_img{    
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        height: auto;
+    }
+
+    .button, .button-red{
+        width: 60%;
+        height: auto;
+        text-align: center;
+        padding: 1vw;
+        margin: 2vw 1vw 1vw 1vw;
+    }
+
+    .locaux_img img, .events_img img {
+        margin: auto;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 960px){
+    
+
+    #home_sections{
+        display: flex;
+        width: 80%;
+        margin: 1vw auto;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #Locaux , #Trombi , #Events{
+        width: 100%;     
+        margin: 2vw 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .locaux_img , .trombi_img, .events_img{       
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+    /*.locaux_img img, .trombi_img img, .events_img img {
+        margin: auto;
+        margin: 5px;
+        width: 100%;
+    }
+*/
+
+    .button, .button-red{
+        width: 80%;
+        height: auto;
+        text-align: center;
+        margin: 3vw;
+        font-size: 1.4rem;
+    }
+
+    .locaux_img img, .events_img img {
+        margin: auto;
+        width: 100%;
+    }
+   
+}
