@@ -137,6 +137,11 @@ h3 , .red-title{
         text-align: center;
         margin: 3vw;
         font-size: 1.4rem;
-        }
+    }
+
+    .locaux_img img, .events_img img {
+        margin: auto;
+        width: 100%;
+    }
    
 }
