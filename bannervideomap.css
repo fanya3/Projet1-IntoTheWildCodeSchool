@@ -1,4 +1,3 @@
-
 .bannerdesktop {
     background-image: url(assets/pictures/banner.png);
     position: relative;
@@ -23,18 +22,17 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
-    margin-top: 7% ;
+    margin-top: 7%;
     margin-bottom: 2%;
 }
 
 #tallvideo {
-   margin-right: 10px;
+    margin-right: 10px;
 }
 
 #tallmap {
     margin-left: 10px;
 }
-
 
 h2 {
     display: flex;
@@ -54,38 +52,32 @@ article {
 }
 
 @media screen and (max-width:961px) {
-    
     .bannerdesktop {
         margin-top: -40px;
     }
-
     #logodesktopbanner {
         width: 25vw;
         height: auto;
         margin-left: 7%;
         bottom: -12%;
-    }    
-
-    #textepres{
-        margin-top:3px;
     }
-
+    #textepres {
+        margin-top: 3px;
+    }
     .videomap {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: auto;
     }
-
     #tallvideo {
-        margin:0 0 20px 0;
+        margin: 0 0 20px 0;
         width: 100%;
         height: auto;
         min-height: 350px;
     }
-
     #tallmap {
-        margin:0;
+        margin: 0;
         width: 100%;
         min-height: 350px;
         height: auto;
