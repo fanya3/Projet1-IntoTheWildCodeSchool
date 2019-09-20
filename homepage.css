@@ -3,6 +3,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     background-image: url(assets/pictures/background.jpg);  
@@ -34,19 +35,16 @@ h3.red-title {
 /*///////////////////////////////////////////////*/
 
 
-@media (max-width:960px) {
+@media screen and (max-width:960px) {
     html {
         font-size: 10px;
-    }
-  
+    }  
 }
-
-
 
 /*//////////////////////////////////////////////*/
 /*///////////////////LOGO/////////////////////*/
 
-@media (max-width:960px) {
+@media screen and (max-width:960px) {
 
     .toplogo {
          max-width: 300px;
@@ -62,7 +60,7 @@ h3.red-title {
  
  
  
- @media (min-width:961px) {
+ @media screen and (min-width:961px) {
      
     .toplogo {
          width: 30%;
@@ -109,7 +107,7 @@ h3.red-title {
 }
 
 
-@media (max-width:960px) {
+@media screen and (max-width:960px) {
    
     .navblock{
         padding: 10px 10px 10px 0;
@@ -140,7 +138,7 @@ h3.red-title {
 
 }
 
-@media (min-width:961px) {
+@media screen and (min-width:961px) {
 
     .navblock {
         padding-top:12px;
@@ -181,7 +179,7 @@ h3.red-title {
         color: #F0EDEB;
         font-family: 'Roboto', sans-serif;
         width: 100%;
-        padding-bottom: 25px;
+        padding-bottom: 60px;
     }
     
     
@@ -195,7 +193,7 @@ h3.red-title {
 
     footer ul{
         list-style-type: none;
-        
+        padding: 0;
     }
 
     footer a{
@@ -245,50 +243,3 @@ h3.red-title {
 
 /*//////////////////////////////////////////////*/
 /*//////////////////////////////////////////////*/
-
-
-
-
-
-
-/*#Locaux, #Events {
-    background-color:rgba(54, 42, 35, 0.877);
-    mix-blend-mode: multiply;
-}
-
-#Trombi {
-    background-color:rgba(240, 237, 235, 0.892);
-    mix-blend-mode: multiply;
-}
-
-.button {
-    padding : 0.8em;
-    color: #F0EDEB;
-    font-size: 1rem;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #F0EDEB;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1.5pt;
-    font-family: 'Rubik', sans-serif;
-}
-
-.button-red {
-    padding : 0.8em;
-    color:  #E63C1F;
-    font-size: 1rem;
-    border-style: solid;
-    border-width: 2px;
-    border-color:  #E63C1F;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1.5pt;
-    font-family: 'Rubik', sans-serif;
-}
-
-footer {
-    background-color: #E63C1F;
-    color: #F0EDEB;
-    font-family: 'Roboto', sans-serif;
-}*/
