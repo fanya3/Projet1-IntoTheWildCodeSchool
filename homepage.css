@@ -42,7 +42,7 @@ h3.red-title {
 /*//////////////////////////////////////////////*/
 /*///////////////////LOGO/////////////////////*/
 
-@media screen and (max-width:960px) 
+@media screen and (max-width:960px) {}
 
     .toplogo {
          max-width: 300px;
