@@ -29,6 +29,25 @@ h3.red-title {
     letter-spacing: 1.5pt;
 }
 
+h4, h5{
+    text-align: center;
+    color: #E63C1F;
+}
+
+h4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 1.5rem;
+    margin-top: -1.2rem;
+}
+
+article p span{
+    font-size: 1.5rem;
+}
+
 @media screen and (min-width:961px){
     .sectionTrombi{
         display: grid;
@@ -43,8 +62,11 @@ h3.red-title {
     }
 
     .firstplace{
-        border: 5px solid #362A23;
-        background-color: #F0EDEB;
+        border: 5px solid ;
+    }
+
+    .brown{
+        background-color: rgba(54, 42, 35, 0.904);
     }
 
     article{
@@ -66,14 +88,12 @@ h3.red-title {
 
     .sectionTrombi{
         display: grid;
-        grid-template-rows:40px repeat(7, 1fr);
-        grid-template-columns: 30px 1fr 30px;
+        grid-template-columns: 1fr;
     }
 
     .oneblock, .teacher{
         display: grid;
         grid-template-columns:1fr;
-        grid-column: 2 / span 1;
         grid-gap: 2rem; 
     }
 
