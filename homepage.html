@@ -1,154 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="homepage.css" type="text/css">
-    <link rel="stylesheet" href="bannervideomap.css" type="text/css">
-    <link rel="stylesheet" href="homeSections.css" type="text/css">
-    <link rel="stylesheet" href="carousel.css" type="text/css">
-    <link rel="stylesheet" href="aboutMe.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800|Roboto|Rubik+Mono+One|Rubik:900&display=swap" rel="stylesheet"> 
+    <link href="homepage.css" rel="stylesheet" type="text/css">
+    <link href="bannervideomap.css" rel="stylesheet" type="text/css">
+    <link href="homesections.css" rel="stylesheet" type="text/css">
+    <link href="slideshow.css" rel="stylesheet" type="text/css">
+    <link href="aboutMe.css"  rel="stylesheet" type="text/css">  
     <title>Into The Wild Code School</title>
 </head>
 
 <body>
-
-    <div class="logocenter">
-        <img class="toplogo" src="assets/pictures/logo.png">
-    </div>
-    <nav class="navblock">
-        <ul class="navg">
-            <li>
-                <a class="navi" href="#"><img class="icon-nav" src="assets/icons/icon-W.svg" alt="">Home</a>
-            </li>
-
-            <li>
-                <a class="navi" href="#"><img class="icon-nav" src="assets/icons/icon-home.svg" alt="">The Rooms</a>
-            </li>
-
-            <li>
-                <a class="navi" href="#"><img class="icon-nav" src="assets/icons/icon-trombi.svg" alt="">Trombi</a>
-            </li>
-
-            <li>
-                <a class="navi" href="#"><img class="icon-nav" src="assets/icons/icon-events.svg" alt="">Events</a>
-            </li>
-            <!-- <li><button class="navi">DarkMode</button></li> -->
-        </ul>
-    </nav>
-
-
-    <section>
-        <div class="bannerdesktop">
-            <img id="logodesktopbanner" src="assets/pictures/stamp.png" alt="logo" />
+    <section class="site">
+        <header class="logo">
+            <a><img href="homepagegrid.html" class="toplogo"  src="assets/pictures/logo.png"></a>
+        </header>
+        <div class="navblock">
+            <ul class="navg">
+                <li>
+                    <a class="navi" href="homepage.html"><img class="icon-nav" src="assets/icons/icon-W.svg" alt="">[ Home ]</a>
+                </li>
+    
+                <li>
+                    <a class="navi" href="locaux.html"><img class="icon-nav" src="assets/icons/icon-home.svg" alt="">[ The Rooms ]</a>
+                </li>
+    
+                <li>
+                    <a class="navi" href="letrombi.html"><img class="icon-nav" src="assets/icons/icon-trombi.svg" alt="">[ Trombi ]</a>
+                </li>
+    
+                <li>
+                    <a class="navi" href="events.html"><img class="icon-nav" src="assets/icons/icon-events.svg" alt="">[ Events ]</a>
+                </li>
         </div>
-
-        <article>
-
-            <h2>5 months of reporting to the wild</h2>
-            <p id="textepres">Welcome to the Wild, during this 5 months I was able to approach some animals who wore some socks, they did not bite me but psychologically I did not come out unscathed...Here is this story! </p>
-
-        </article>
-    </section>
-
-
-    <section>
-        <div class="videomap">
-            <iframe id="tallvideo" width="700" height="450" src="https://www.youtube.com/embed/omfaTycDEEw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            <iframe id="tallmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.478597785281!2d2.3506601514433534!3d48.84908340921404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e4fa5fdbf9%3A0x5dcb5a09cff26472!2s11%20Rue%20de%20Poissy%2C%2075005%20Paris!5e0!3m2!1sfr!2sfr!4v1568824624204!5m2!1sfr!2sfr"
-                width="700" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        </div>
-    </section>
-
-
-    <section id="home_sections">
-
-        <div id="Locaux">
-            <h3>The Rooms</h3>
-            <div class="locaux_img">
-                <img src="assets/pictures/locaux1-homepage.jpg" alt="" />
+        <div class="banner">
+            <div class="bannerdesktop">
+                <img id="logodesktopbanner" src="assets/pictures/stamp.png" alt="logo" />
             </div>
+            <article>
+                <h2>5 months of photo-reportage <br> [into the Wild] Code School</h2>
+                <p id="textepres">Welcome to the Wild, during this 5 months I was able to approach some animals who wore some socks, they did not bite me but psychologically I did not come out unscathed...Here is this story! </p>
+            </article>
+        </div>
+
+        <div class="video-map">
+            <iframe id="tallvideo"  src="https://www.youtube.com/embed/omfaTycDEEw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="google-map">
+            <iframe id="tallmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.478597785281!2d2.3506601514433534!3d48.84908340921404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e4fa5fdbf9%3A0x5dcb5a09cff26472!2s11%20Rue%20de%20Poissy%2C%2075005%20Paris!5e0!3m2!1sfr!2sfr!4v1568824624204!5m2!1sfr!2sfr"
+            width="700" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>        
+        </div>
+
+        <div id="locaux">
+            <h3>The Rooms</h3>
+            <img src="assets/pictures/locaux1-homepage.jpg" alt="" />  
             <a class="button" href="#">Visit the rooms</a>
         </div>
-
-        <div id="Trombi">
+        
+        <div id="trombi">
             <h3 class="red-title">Trombi</h3>
-            <div class="trombi_img">
-                <div id="slider">
-                    <div class="slider-container">
-                        <img src="assets/pictures/wilder1.jpg" alt="">
-                        <img src="assets/pictures/wilder2.jpg" alt="">
-                        <img src="assets/pictures/wilder3.jpg" alt="">
-                        <img src="assets/pictures/wilder4.jpg" alt="">
-                        <img src="assets/pictures/wilder5.jpg" alt="">
-                        <img src="assets/pictures/wilder6.jpg" alt="">
-                        <img src="assets/pictures/teacher1.jpg" alt="">
-                        <img src="assets/pictures/teacher2.jpg" alt="">
-                        <img src="assets/pictures/teacher3.jpg" alt="">
-                        <img src="assets/pictures/wilder1.jpg" alt="">
+            <div class="slider-container">
+                    <!-- Slideshow container -->
+                <div class="slideshow-container">
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">     
+                        <img src="assets/pictures/charlotte-homepage.jpg">
+                        <div class="text">[Charlotte] Aka Crazy Chachou or CC</div>
                     </div>
+                    <div class="mySlides fade">  
+                        <img src="assets/pictures/flo-homepage.jpg">
+                        <div class="text">[Florian] Aka Flauz the butcher</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="assets/pictures/morgan-homepage.jpg">
+                        <div class="text">[Morgan] Aka Margo Laquoi</div>
+                    </div>
+                    <div class="mySlides fade">     
+                        <img src="assets/pictures/jenny-homepage.jpg">
+                        <div class="text">[Jenny] Aka the Jenowl the MindTwisterer</div>
+                    </div>
+                    <div class="mySlides fade">  
+                        <img src="assets/pictures/abdou-homepage.jpg">
+                        <div class="text">[Abdou] Aka the ChickenKing</div>
+                    </div>
+                
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(+1)">&#10095;</a>
+
+                    <!-- The dots/circles -->
+                    <div class="dots-section">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                    </div> 
                 </div>
             </div>
             <a class="button-red" href="#">Watch the trombi</a>
         </div>
 
-        <div id="Events">
+        <div id="events">
             <h3>Events</h3>
-            <div class="events_img">
-                <img src="assets/pictures/events-homepage.jpg" alt="" />
-
-            </div>
+            <img src="assets/pictures/events-homepage.jpg" alt="" />
             <a class="button" href="#">See the events</a>
         </div>
+
+        <div id="about-me">
+            <h3 class="red-title">Who am I ?</h3>
+            <div class="about-me">
+                <img class="photographer" src="assets/pictures/photographer.jpg" alt="" />
+                <div class="biography">
+                    <p >My name is Rajat Shahrukh. I will show you how to survive in one of the most dangerous environment of our planet. I will be tested by many challenges in a place where mental sanity only last for a few hours without the good survival skills.</br>
+                        I will visit one of the most dangerous places in the world: the Wild Code School. I will enter the Wild Code School for 5 months to see what it's like from the inside. I will try to learn HTML and CSS. I will attend to classes about Git, GitHub and many more dangerous dark tools.</br> 
+                        I hope that the tales are true and I will have the honor to see the true nature of the Wilders on their field.</br> 
+                        I am a photograph and also an adventurer. I like to see complicated situations and find a way to overcome it.</br> 
+                        I like everything to be spicy, in the stove and even more in the pictures I take.</br>
+                        I am a man of action and I am also a great adept of the spiritual world. Yes I meditate a lot!</br>
+                        I chose the Wild Code School to show you an art that is hidden from the crowds, it is the Dark Wild Dev!</p>
+                    <div class="portfolio-links">
+                        <a class="portfolio" href="#" target="_blank"> My portfolio </a>
+                        <a class="portfolio-icon" href="https://www.instagram.com/" target="_blank">
+                            <svg width="50" height="50" viewBox="0 0 90 90">
+                                <path d="M45.7,16.5c9.6,0,10.7,0,14.5,0.2c2.3,0,4.5,0.4,6.7,1.2c3.1,1.2,5.6,3.7,6.8,6.8c0.8,2.1,1.2,4.4,1.2,6.7
+                c0.2,3.8,0.2,4.9,0.2,14.5s0,10.7-0.2,14.5c0,2.3-0.4,4.5-1.2,6.7c-1.2,3.1-3.7,5.6-6.8,6.8c-2.1,0.8-4.4,1.2-6.7,1.2
+                c-3.8,0.2-4.9,0.2-14.5,0.2s-10.7,0-14.5-0.2c-2.3,0-4.5-0.4-6.7-1.2c-3.1-1.2-5.6-3.7-6.8-6.8c-0.8-2.1-1.2-4.4-1.2-6.7
+                c-0.2-3.8-0.2-4.9-0.2-14.5s0-10.7,0.2-14.5c0-2.3,0.4-4.5,1.2-6.7c1.2-3.1,3.7-5.6,6.8-6.8c2.1-0.8,4.4-1.2,6.7-1.2
+                C35,16.5,36.1,16.5,45.7,16.5 M45.7,10c-9.8,0-11,0-14.8,0.2c-3,0.1-5.9,0.6-8.7,1.7c-2.4,0.9-4.6,2.3-6.4,4.1
+                c-1.8,1.8-3.2,4-4.2,6.4c-1,2.8-1.6,5.8-1.7,8.8c-0.2,3.8-0.2,5-0.2,14.8s0,11,0.2,14.8c0.1,3,0.6,5.9,1.7,8.7
+                c1.9,4.8,5.7,8.7,10.5,10.6c2.8,1,5.7,1.6,8.7,1.7c3.8,0.2,5,0.2,14.8,0.2s11,0,14.8-0.2c3-0.1,5.9-0.6,8.7-1.7
+                c2.4-0.9,4.6-2.3,6.4-4.2c1.8-1.8,3.2-4,4.1-6.4c1-2.8,1.6-5.7,1.7-8.7c0.2-3.8,0.2-5,0.2-14.8s0-11-0.2-14.8
+                c-0.1-3-0.6-5.9-1.7-8.7c-1.9-4.8-5.7-8.6-10.5-10.5c-2.8-1-5.7-1.6-8.7-1.7C56.7,10,55.5,10,45.7,10z M45.7,27.5
+                c-10.2,0-18.5,8.3-18.5,18.4s8.3,18.5,18.5,18.5s18.5-8.3,18.5-18.5l0,0C64.1,35.7,55.9,27.5,45.7,27.5z M45.7,57.9
+                c-6.6,0-12-5.4-12-12s5.4-12,12-12s12,5.4,12,12S52.3,57.9,45.7,57.9L45.7,57.9z M69.2,26.7c0,2.4-1.9,4.3-4.3,4.3
+                c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3l0,0C67.3,22.4,69.2,24.4,69.2,26.7z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="the_footer">
+                <ul>
+                    <li><a id="socialfooter" href="mailto:contact@wildcodeschool.fr">Contact</a></li>
+                    <li><a id="socialfooter" href="https://www.wildcodeschool.fr" target="_blank">La Wild Code School</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a id="socialfooter" href="https://www.crashtest.com"> Made with ♡ by Crashtest</a>
+                    </li>
+                </ul>
+                <ul class="socialclass">
+                    <li><a class="icon" href="https://www.facebook.com" target="_blank">
+                            <svg width="50" height="50" viewBox="0 0 90 90">
+                                <path d="M75.7,11.7H14.3c-2.1,0-3.8,1.7-3.8,3.8v61.4c0,2.1,1.7,3.8,3.8,3.8h33V54h-9V43.6h9v-7.7
+                                c0-8.9,5.4-13.8,13.4-13.8c3.8,0,7.1,0.3,8,0.4v9.3l-5.5,0c-4.3,0-5.2,2.1-5.2,5.1v6.6h10.3L67.1,54h-9v26.7h17.6
+                                c2.1,0,3.8-1.7,3.8-3.8V15.5C79.5,13.4,77.8,11.7,75.7,11.7z" />
+                            </svg>
+                        </a></li>
+    
+    
+                    <li><a class="icon" href="https://www.instagram.com/" target="_blank">
+                            <svg width="50" height="50" viewBox="0 0 90 90">
+                                <path d="M45.7,16.5c9.6,0,10.7,0,14.5,0.2c2.3,0,4.5,0.4,6.7,1.2c3.1,1.2,5.6,3.7,6.8,6.8c0.8,2.1,1.2,4.4,1.2,6.7
+                c0.2,3.8,0.2,4.9,0.2,14.5s0,10.7-0.2,14.5c0,2.3-0.4,4.5-1.2,6.7c-1.2,3.1-3.7,5.6-6.8,6.8c-2.1,0.8-4.4,1.2-6.7,1.2
+                c-3.8,0.2-4.9,0.2-14.5,0.2s-10.7,0-14.5-0.2c-2.3,0-4.5-0.4-6.7-1.2c-3.1-1.2-5.6-3.7-6.8-6.8c-0.8-2.1-1.2-4.4-1.2-6.7
+                c-0.2-3.8-0.2-4.9-0.2-14.5s0-10.7,0.2-14.5c0-2.3,0.4-4.5,1.2-6.7c1.2-3.1,3.7-5.6,6.8-6.8c2.1-0.8,4.4-1.2,6.7-1.2
+                C35,16.5,36.1,16.5,45.7,16.5 M45.7,10c-9.8,0-11,0-14.8,0.2c-3,0.1-5.9,0.6-8.7,1.7c-2.4,0.9-4.6,2.3-6.4,4.1
+                c-1.8,1.8-3.2,4-4.2,6.4c-1,2.8-1.6,5.8-1.7,8.8c-0.2,3.8-0.2,5-0.2,14.8s0,11,0.2,14.8c0.1,3,0.6,5.9,1.7,8.7
+                c1.9,4.8,5.7,8.7,10.5,10.6c2.8,1,5.7,1.6,8.7,1.7c3.8,0.2,5,0.2,14.8,0.2s11,0,14.8-0.2c3-0.1,5.9-0.6,8.7-1.7
+                c2.4-0.9,4.6-2.3,6.4-4.2c1.8-1.8,3.2-4,4.1-6.4c1-2.8,1.6-5.7,1.7-8.7c0.2-3.8,0.2-5,0.2-14.8s0-11-0.2-14.8
+                c-0.1-3-0.6-5.9-1.7-8.7c-1.9-4.8-5.7-8.6-10.5-10.5c-2.8-1-5.7-1.6-8.7-1.7C56.7,10,55.5,10,45.7,10z M45.7,27.5
+                c-10.2,0-18.5,8.3-18.5,18.4s8.3,18.5,18.5,18.5s18.5-8.3,18.5-18.5l0,0C64.1,35.7,55.9,27.5,45.7,27.5z M45.7,57.9
+                c-6.6,0-12-5.4-12-12s5.4-12,12-12s12,5.4,12,12S52.3,57.9,45.7,57.9L45.7,57.9z M69.2,26.7c0,2.4-1.9,4.3-4.3,4.3
+                c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3l0,0C67.3,22.4,69.2,24.4,69.2,26.7z" />
+                            </svg>
+                        </a> </li>
+      
+    
+                    <li><a class="icon" href="https://www.twitter.com" target="_blank">
+                            <svg width="50" height="50" viewBox="0 0 90 90">
+                                <path d="M67.5,12.4h-44c-7.3,0-13.2,5.9-13.2,13.2v44c0,7.3,5.9,13.2,13.2,13.2h44c7.3,0,13.2-5.9,13.2-13.2v-44
+                        C80.7,18.3,74.8,12.4,67.5,12.4L67.5,12.4z M63,39.6l0,1.1c0,11.4-8.7,24.6-24.7,24.6c-4.9,0-9.4-1.4-13.3-3.9
+                        c0.7,0.1,1.4,0.1,2.1,0.1c4.1,0,7.8-1.4,10.8-3.7c-3.8-0.1-7-2.6-8.1-6c0.5,0.1,1.1,0.2,1.6,0.2c0.8,0,1.6-0.1,2.3-0.3
+                        c-4-0.8-6.9-4.3-6.9-8.5v-0.1c1.2,0.6,2.5,1,3.9,1.1c-2.3-1.5-3.8-4.2-3.8-7.2c0-1.6,0.4-3.1,1.2-4.4c4.2,5.2,10.6,8.7,17.8,9
+                        c-0.2-0.6-0.2-1.3-0.2-2c0-4.8,3.9-8.7,8.7-8.7c2.5,0,4.7,1.1,6.3,2.7c2-0.4,3.8-1.1,5.5-2.1c-0.6,2-2,3.7-3.8,4.8
+                        c1.8-0.2,3.4-0.7,5-1.4C66.2,36.9,64.7,38.4,63,39.6L63,39.6z M63,39.6" />
+                            </svg>
+                        </a></li>
+                </ul>
+    
+                <ul>    
+                    <li><a id="socialfooter" href="mailto:contact@wildcodeschool.fr">contact@wildcodeschool.fr</a></li>
+                    <li><a id="socialfooter" href="callto:0658743091">06 58 74 30 91</a></li>
+                </ul>
+            </div>   
+        </footer>
+
     </section>
-
-
-
-    <section id="about_me">
-
-        <h3 class="red-title">Who am I ?</h3>
-
-        <div class="about_me_">
-            <img class="photographer" src="assets/pictures/photographer.jpg" alt="" />
-            <p>My name is Rajat Shahrukh. I will show you how to survive in on of the most dangerous environment of ou planet. I will be tested by many challenges in a place where mental sanity only last for a few hours without the good survival skills.
-                I will visit one of the most dangerous places in the world: the Wild Code School. I will enter the Wild Code School for 5 months to see what it's like from the inside. I will try to learn HTML and CSS. I attend to classes about Git, GitHub
-                and many more dangerous dark tools. I hope that the tales are true and I will have the honor to see the true nature of the Wilders on their field. I am a photograph and also an adventurer. I like to see complicated situations and find
-                a way to overcome it. I like everything to be spicy, in the stove but most of all in the pictures I take. I am a man of action and I also a great adept of the spiritual world. Yes I meditate a lot! I chose the Wild Code School to show
-                you an art that is hidden from the crowds, it is the Dark Wild Dev</p>
-        </div>
-
-        <div class="portfolio-links">
-            <a class="portfolio" href="#" target="_blank"> My portfolio </a>
-            <a href="#"><img class="icons" src="assets/icons/icon-insta.svg" alt="Insta" /></a>
-        </div>
-
-
-    </section>
-
-
-
-    <footer>
-        <div class="the_footer">
-
-            <ul>
-                <li><a href="#">Contact</a></li>
-                <li><a href="https://www.wildcodeschool.fr" target="_blank">La Wild Code School</a></li>
-            </ul>
-
-            <ul>
-                <li>contact@wildcodeschool.fr</li>
-                <li>06 58 74 30 91</li>
-            </ul>
-        </div>
-
-    </footer>
-
-
-
+    <script src="slideShowES6.js"></script>
 </body>
-
 </html>
