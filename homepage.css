@@ -33,16 +33,20 @@ h3.red-title {
 }
 /*///////////////////////////////////////////////*/
 
-@media screen and (max-width:960px) {
+
+@media (max-width:960px) {
     html {
         font-size: 10px;
-    }  
+    }
+  
 }
+
+
 
 /*//////////////////////////////////////////////*/
 /*///////////////////LOGO/////////////////////*/
 
-@media screen and (max-width:960px) 
+@media (max-width:960px) {
 
     .toplogo {
          max-width: 300px;
@@ -57,8 +61,9 @@ h3.red-title {
  }
  
  
-
- @media screen and (min-width:961px) {     
+ 
+ @media (min-width:961px) {
+     
     .toplogo {
          width: 30%;
          height: auto;
@@ -104,8 +109,7 @@ h3.red-title {
 }
 
 
-
-@media screen and (max-width:960px) {
+@media (max-width:960px) {
    
     .navblock{
         padding: 10px 10px 10px 0;
@@ -136,8 +140,8 @@ h3.red-title {
 
 }
 
+@media (min-width:961px) {
 
-@media screen and (min-width:961px) {
     .navblock {
         position: sticky;
         top: 0;
@@ -146,7 +150,6 @@ h3.red-title {
         display: flex;
         align-content: center;
     }
-
 
     .navi{
         font-size: 1.1rem;
@@ -178,7 +181,7 @@ h3.red-title {
         color: #F0EDEB;
         font-family: 'Roboto', sans-serif;
         width: 100%;
-        padding-bottom: 60px;
+        padding-bottom: 25px;
     }
     
     
@@ -191,7 +194,7 @@ h3.red-title {
 
     footer ul{
         list-style-type: none;
-        padding: 0;
+        
     }
 
     footer a{
@@ -217,15 +220,17 @@ h3.red-title {
         padding-bottom: 55px;
         margin-top: 2vw;
     }
-  
+
     footer a{
+        
         text-decoration: none;
         color: #F0EDEB;
     }
 
     .the_footer{
         display: flex;
-        justify-content: space-around;     
+        justify-content: space-around;
+        
     }
 
     footer ul{
@@ -233,6 +238,57 @@ h3.red-title {
     }
 
     footer ul li{
-        margin: 10px;      
+        margin: 10px;
+        
     }
 }
+
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+
+
+
+
+
+
+/*#Locaux, #Events {
+    background-color:rgba(54, 42, 35, 0.877);
+    mix-blend-mode: multiply;
+}
+
+#Trombi {
+    background-color:rgba(240, 237, 235, 0.892);
+    mix-blend-mode: multiply;
+}
+
+.button {
+    padding : 0.8em;
+    color: #F0EDEB;
+    font-size: 1rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F0EDEB;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    font-family: 'Rubik', sans-serif;
+}
+
+.button-red {
+    padding : 0.8em;
+    color:  #E63C1F;
+    font-size: 1rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #E63C1F;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    font-family: 'Rubik', sans-serif;
+}
+
+footer {
+    background-color: #E63C1F;
+    color: #F0EDEB;
+    font-family: 'Roboto', sans-serif;
+}*/
