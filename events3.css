@@ -72,7 +72,7 @@ iframe{
 
 #Paysage-campagne{
     grid-area: photo3;
-    height: 100%;
+    height: auto;
     width: 100%;
     object-fit: cover;
 }
@@ -85,7 +85,7 @@ iframe{
 
 #Portail{
     grid-area: photo1;
-    height: 100%;
+    height: auto;
     width: 100%;
     object-fit: cover;
 }
