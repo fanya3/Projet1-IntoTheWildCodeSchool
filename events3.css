@@ -134,7 +134,7 @@ iframe{
 
 #exterieur-fdd{
     grid-area: picture4;
-    height: 100%;
+    height: auto;
     width: 100%;
     object-fit: cover;
 }
@@ -190,6 +190,9 @@ iframe{
 
     #Paysage-campagne{
         grid-area: photo3;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
 
     #chateau-NB{
@@ -198,6 +201,9 @@ iframe{
 
     #Portail{
         grid-area: photo1;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
 
     #foule-chateau{
