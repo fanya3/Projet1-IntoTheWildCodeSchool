@@ -54,7 +54,7 @@ h3.red-title {
 @media screen and (min-width:961px){
     .site{
         display: grid;
-        grid-template-rows: 220px 65px auto auto auto auto auto;
+        grid-template-rows: 230px 65px auto auto auto auto auto;
         grid-template-columns: repeat(12, 1fr);
         grid-column-gap: 25px;
         grid-row-gap: 30px;
@@ -193,7 +193,7 @@ h3.red-title {
         align-content: center;
     }
     .toplogo {
-        width: 70%;
+        width: 375px;
         object-fit: contain;
         height: auto;
    }
@@ -204,14 +204,14 @@ h3.red-title {
  @media screen and (min-width:961px) {     
     
     .logo, .logo a{
-        display: flex;
-        justify-content: center;
-        align-content: center;
+        display: block;
+        margin: auto;
     }
     .toplogo {
-        width: 60%;
+        width: 552px;
         object-fit: contain;
         height: auto;
+        margin-top: 30px;
    }
  }
  
