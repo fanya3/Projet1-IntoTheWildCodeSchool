@@ -185,18 +185,26 @@ h3.red-title {
 /*//////////////////////////////////////////////*/
 /*///////////////////LOGO/////////////////////*/
 
-@media screen and (max-width:960px) {
-  
-    .logo, .logo a {
+.toplogo{
+    background-image: url(assets/pictures/logo.png);  
+    padding: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 5px;
+}
+
+
+@media screen and (max-width:960px) { 
+    
+    .logo {
         display: flex;
         justify-content: center;
         align-content: center;
-    }
-    .toplogo {
         width: 375px;
-        object-fit: contain;
-        height: auto;
-   }
+        margin: 15px auto 0 auto;
+    }
+
  }
 
 
@@ -204,21 +212,18 @@ h3.red-title {
  @media screen and (min-width:961px) {     
     
     .logo, .logo a{
-        display: block;
-        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
-    .toplogo {
-        width: 552px;
-        object-fit: contain;
+ 
+    .logo {
+        width: 690px;
         height: auto;
-        margin-top: 30px;
-   }
+        margin: 30px auto auto auto;
+    }
  }
  
- 
- /*////////////////////////////////////////////////*/
- /*////////////////////////////////////////////////*/
-
 
 
 

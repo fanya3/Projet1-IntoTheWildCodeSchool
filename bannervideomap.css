@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     mix-blend-mode: multiply;
-    margin-top:-70px;
+    margin-top:-20px;
 }
 
 #logodesktopbanner {
@@ -43,14 +43,14 @@ article {
 @media screen and (max-width:961px) {
     
     .bannerdesktop {
-        margin-top: -40px;
+        margin-top: -20px;
     }
 
     #logodesktopbanner {
-        width: 25vw;
+        width: 35vw;
         height: auto;
         margin-left: 7%;
-        bottom: -12%;
+        top: 69%;
     }    
 
     #textepres{
