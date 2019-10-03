@@ -16,11 +16,11 @@
 
 <body>
     <section class="site">
-       <!-- <header class="logo">
+        <!-- <header class="logo">
             <a><img href="homepagegrid.html" class="toplogo" src="assets/pictures/logo.png"></a>
         </header> -->
         <header class="logo">
-            <a class="toplogo" href="homepagegrid.html" ></a>
+            <a class="toplogo" href="homepagegrid.html"></a>
         </header>
         <div class="navblock">
             <ul class="navg">
@@ -50,24 +50,38 @@
 
                 <div class="oneblock">
                     <article class="one">
-                        <img class="photoplace" src="assets/pictures/locaux1.jpg" alt="">
-                        <p>Quam ob rem vita quidem talis fuit vel fortuna vel gloria, ut nihil posset accedere, moriendi autem sensum celeritas abstulit;</p>
+                        <img class="photoplace" id="locaux1" src="assets/pictures/locaux1.jpg" alt="">
+
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                            <!-- The Close Button -->
+                            <span class="close">&times;</span>
+
+                            <!-- Modal Content (The Image) -->
+                            <img class="modal-content" id="img01">
+
+                            <!-- Modal Caption (Image Text) -->
+                            <div id="caption"></div>
+                        </div>
+
+                        <p>sensum celeritas abstu</p>
                     </article>
 
                     <article class="two">
-                        <img class="photoplace" src="assets/pictures/locaux2.jpg" alt="">
+                        <img class="photoplace" id="locaux2" src="assets/pictures/locaux2.jpg" alt="">
                         <p>Quam ob rem vita quidem talis fuit vel fortuna vel gloria, ut nihil posset accedere, moriendi autem sensum celeritas abstulit;</p>
                     </article>
 
 
 
                     <article class="three">
-                        <img class="photoplace" src="assets/pictures/locaux3.jpg" alt="">
+                        <img class="photoplace" id="locaux3" src="assets/pictures/locaux3.jpg" alt="">
                         <p>Quam ob rem vita quidem talis fuit vel fortuna vel gloria, ut nihil posset accedere, moriendi autem sensum celeritas abstulit;</p>
                     </article>
 
                     <article class="four">
-                        <img class="photoplace" src="assets/pictures/locaux4.jpg" alt="">
+                        <img class="photoplace" id="locaux4" src="assets/pictures/locaux4.jpg" alt="">
                         <p>Quam ob rem vita quidem talis fuit vel fortuna vel gloria, ut nihil posset accedere, moriendi autem sensum celeritas abstulit;</p>
                     </article>
                 </div>
@@ -141,6 +155,7 @@
         </footer>
 
     </section>
+    <script type="text/javascript" src="locaux.js"></script>
 </body>
 
 </html>
