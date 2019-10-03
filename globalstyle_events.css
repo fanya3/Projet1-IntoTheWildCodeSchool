@@ -55,7 +55,7 @@ h3.red-title {
 @media screen and (min-width:961px){
     .site{
         display: grid;
-        grid-template-rows: 220px 65px auto auto auto;
+        grid-template-rows: 230px 65px auto auto auto;
         grid-template-columns: repeat(12, 1fr);
         grid-column-gap: 25px;
         grid-row-gap: 30px;
@@ -138,18 +138,26 @@ h3.red-title {
 /*//////////////////////////////////////////////*/
 /*///////////////////LOGO/////////////////////*/
 
-@media screen and (max-width:960px) {
-  
-    .logo, .logo a {
+.toplogo{
+    background-image: url(assets/pictures/logo.png);  
+    padding: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 5px;
+}
+
+
+@media screen and (max-width:960px) { 
+    
+    .logo {
         display: flex;
         justify-content: center;
         align-content: center;
+        width: 375px;
+        margin: 15px auto 0 auto;
     }
-    .toplogo {
-        width: 70%;
-        object-fit: contain;
-        height: auto;
-   }
+
  }
 
 
@@ -161,12 +169,14 @@ h3.red-title {
         justify-content: center;
         align-content: center;
     }
-    .toplogo {
-        width: 60%;
-        object-fit: contain;
+ 
+    .logo {
+        width: 690px;
         height: auto;
-   }
+        margin: 30px auto auto auto;
+    }
  }
+ 
  
  
  /*////////////////////////////////////////////////*/
