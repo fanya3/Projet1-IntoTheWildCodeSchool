@@ -59,19 +59,19 @@ section h2 {
         width: 50%;
         height: auto;
     }*/
-    .photoplace p {
+    /* .photoplace p {
         display: block;
-    }
+    } */
     .photoplace {
         width: 100%;
         height: auto;
         object-fit: contain;
         margin-bottom: 1.2vw;
     }
-    p {
+    /* p {
         text-align: center;
         justify-content: flex-start;
-    }
+    } */
 }
 
 @media screen and (min-width:961px) {
