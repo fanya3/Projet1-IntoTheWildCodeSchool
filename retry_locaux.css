@@ -38,7 +38,7 @@ section h2 {
     }
     .oneblock {
         display: grid;
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(4, auto);
         grid-template-areas: "first" "second" "third" "fourth";
         grid-gap: 2rem;
     }
@@ -72,6 +72,10 @@ section h2 {
         text-align: center;
         justify-content: flex-start;
     } */
+}
+
+.close {
+    display: none;
 }
 
 @media screen and (min-width:961px) {
@@ -195,6 +199,7 @@ section h2 {
         font-size: 40px;
         font-weight: bold;
         transition: 0.3s;
+        display: block;
     }
     .close:hover,
     .close:focus {
