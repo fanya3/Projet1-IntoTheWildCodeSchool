@@ -13,6 +13,7 @@
 h3 , .red-title{
     text-align: center;
     margin-bottom: 0.6em;
+    margin-top : 0.2em;
 }
 
 
@@ -107,7 +108,7 @@ h3 , .red-title{
         width: 80%;
         height: auto;
         text-align: center;
-        margin: 3vw;
+        margin: 6vw 3vw 3vw 3vw;
         font-size: 1.4rem;
     }
 

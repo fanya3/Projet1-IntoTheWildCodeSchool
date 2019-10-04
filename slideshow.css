@@ -2,7 +2,7 @@
 /* Slideshow container */
 .slideshow-container {
   background-color: lightgray;
-  width: 100%;
+  width: 90%;
   max-width: 1000px;
   height: auto;
   position: relative;
@@ -101,4 +101,19 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+
+
+@media screen and (max-width:960px) {
+
+  .slideshow-container {
+    background-color: lightgray;
+    width: 95%;
+    max-width: 1000px;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
 }
