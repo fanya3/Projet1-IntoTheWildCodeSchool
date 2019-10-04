@@ -19,7 +19,7 @@ const modalImg = document.getElementById("img01");
 const captionText = document.getElementById("caption");
 
 
-if (window.matchMedia("(min-width: 961px)").matches){
+// if (window.matchMedia("(min-width: 961px)").matches){
   
   img.onclick = function(){
     console.log(this.id)
@@ -78,8 +78,8 @@ if (window.matchMedia("(min-width: 961px)").matches){
   } 
 
 
-} else { console.log("no");
-}
+// } else { console.log("no");
+// }
 
   
 
