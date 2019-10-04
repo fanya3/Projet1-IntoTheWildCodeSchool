@@ -156,7 +156,9 @@ iframe{
     grid-area: txt;
 }
 
-
+.close{
+    display: none;
+}
 
 /*//////////////////////////// Responsive ////////////////////////////*/
 
@@ -326,6 +328,7 @@ iframe{
       
       /* The Close Button */
       .close {
+        display: block;
         position: absolute;
         top: 15px;
         right: 35px;
