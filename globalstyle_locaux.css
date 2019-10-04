@@ -1,0 +1,372 @@
+    /*///////////////// GLOBAL PARAMETERS //////////////////////*/
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        color: #362A23;
+    }
+    
+    html {
+        background: url(assets/pictures/background.jpg) no-repeat center fixed;
+        background-size: cover;
+    }
+    
+    @media screen and (max-width:960px) {
+        html {
+            font-size: 12px;
+        }
+    }
+    
+    h2 {
+        font-family: 'Rubik', sans-serif;
+        color: #362A23;
+        font-size: 2.4rem;
+        text-transform: uppercase;
+    }
+    
+    h3 {
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+        color: #F0EDEB;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 1.5pt;
+    }
+    
+    h3.red-title {
+        font-family: 'Rubik', sans-serif;
+        color: #E63C1F;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 1.5pt;
+    }
+    
+    @media screen and (max-width:960px) {
+        html {
+            font-size: 12px;
+        }
+    }
+    
+    /*////////////////////////////////////////////////////*/
+    
+    
+    /*///////////////// GRID DESKTOP //////////////////*/
+    
+    @media screen and (min-width:961px) {
+        .site {
+            display: grid;
+            grid-template-rows: 230px 65px auto auto auto;
+            grid-template-columns: repeat(12, 1fr);
+            grid-column-gap: 25px;
+            grid-row-gap: 30px;
+        }
+        .logo {
+            grid-row: 1;
+            grid-column: 1 / span 12;
+        }
+        .navblock {
+            grid-row: 2;
+            grid-column: 1 / span 12;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .banner {
+            grid-row: 3;
+            grid-column: 1 / span 12;
+        }
+        .content {
+            grid-row: 4;
+            grid-column: 2 / span 10;
+        }
+        .footer {
+            grid-row: 5;
+            grid-column: 1 / span 12;
+        }
+    }
+    
+    
+    /*//////////////////////////////////////////////////////*/
+    
+    
+    /*///////////////// GRID MOBILE //////////////////*/
+    
+    @media screen and (max-width:960px) {
+        .site {
+            display: grid;
+            grid-template-columns: 40px 1fr 40px;
+            grid-template-rows: 120px auto auto auto;
+            grid-row-gap: 15px;
+        }
+        .logo {
+            grid-row: 1;
+            grid-column: span 3;
+        }
+        .banner {
+            grid-row: 2;
+            grid-column: span 3;
+        }
+        .content {
+            grid-row: 3;
+            grid-column: 2 / span 1;
+        }
+        .footer {
+            grid-row: 4;
+            grid-column: span 3;
+        }
+        .navblock {
+            width: 100%;
+            height: 60px;
+            position: fixed;
+            bottom: 0;
+            z-index: 100;
+        }
+    }
+    
+    
+    /*//////////////////////////////////////////////*/
+    
+/*//////////////////////////////////////////////*/
+/*///////////////////LOGO/////////////////////*/
+
+.toplogo{
+    background-image: url(assets/pictures/logo.png);  
+    padding: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 5px;
+}
+
+
+@media screen and (max-width:960px) { 
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 375px;
+        margin: 15px auto 0 auto;
+    }
+
+ }
+
+
+
+ @media screen and (min-width:961px) {     
+    
+    .logo, .logo a{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+ 
+    .logo {
+        width: 690px;
+        height: auto;
+        margin: 30px auto auto auto;
+    }
+ }
+ 
+ 
+ 
+ /*////////////////////////////////////////////////*/
+ /*////////////////////////////////////////////////*/
+
+    
+    /*//////////////////////////////////////////////////*/
+    
+    
+    /*//////////////////// NAVBAR //////////////////////*/
+    
+    .navblock {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .navg {
+        width: 80%;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+    
+    .navi {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 900;
+    }
+    
+    @media screen and (max-width:960px) {
+        .navblock {
+            background-color: #362A23;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+        .navg {
+            justify-content: space-around;
+            width: 80%;
+        }
+        .navi {
+            font-size: 0.7rem;
+            color: #F0EDEB;
+            letter-spacing: 1pt;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80px;
+            height: 100%;
+        }
+        .icon-nav {
+            height: 30px;
+            width: auto;
+        }
+        .navi:hover {
+            opacity: 0.6;
+        }
+    }
+    
+    @media screen and (min-width:961px) {
+        .navblock {
+            background-color: rgba(255, 255, 255, 0.812);
+            display: flex;
+            align-content: center;
+        }
+        .navi {
+            font-size: 1.1rem;
+            color: #362A23;
+            letter-spacing: 1.9pt;
+        }
+        .icon-nav {
+            display: none;
+        }
+        .navi:hover {
+            color: #E63C1F;
+        }
+    }
+    
+    
+    /*////////////////////////////////////////////////*/
+    
+    
+    /*////////////////////////////////////////////////*/
+    
+    
+    /*//////////////////////////////////////////////*/
+    
+    
+    /*///////////////////CONTENT/////////////////////*/
+    
+    .content {
+        width: 100%;
+    }
+    
+    
+    /*//////////////////////////////////////////////*/
+    
+    
+    /*///////////////////FOOTER/////////////////////*/
+    
+    @media screen and (max-width: 960px) {
+        footer {
+            background-color: #E63C1F;
+            color: #362A23;
+            font-family: 'Roboto', sans-serif;
+            width: 100%;
+            padding-bottom: 60px;
+        }
+        .the_footer {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        footer a {
+            text-decoration: none;
+            color: #F0EDEB;
+        }
+        footer li {
+            margin: 10px;
+        }
+        footer ul li:hover {
+            color: #F0EDEB;
+        }
+        .icon {
+            fill: #362A23;
+        }
+        .icon:hover {
+            fill: #F0EDEB;
+        }
+        #socialfooter {
+            color: #362A23;
+        }
+        #socialfooter:hover {
+            color: #F0EDEB;
+        }
+        .socialclass {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+    
+    @media screen and (min-width: 961px) {
+        footer {
+            background-color: #E63C1F;
+            color: #362A23;
+            font-family: 'Roboto', sans-serif;
+            width: 100%;
+            padding-top: 25px;
+            padding-bottom: 55px;
+        }
+        footer a {
+            text-decoration: none;
+            color: #F0EDEB;
+        }
+        .the_footer {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        footer ul li {
+            margin: 10px;
+        }
+        footer ul li:hover {
+            color: #F0EDEB;
+        }
+        .icon {
+            fill: #362A23;
+        }
+        .icon:hover {
+            fill: #F0EDEB;
+        }
+        .socialclass {
+            display: flex;
+            flex-direction: row;
+        }
+        #socialfooter {
+            color: #362A23;
+        }
+        #socialfooter:hover {
+            color: #F0EDEB;
+        }
+    }
+        /*////////////////////////////////////////////////*/
+        /*////////////////////////////////////////////////*/
