@@ -1,0 +1,345 @@
+/*//////////////////////////// Reset Parameters ////////////////////////////*/
+* {
+    padding:0;
+    margin:0; 
+    box-sizing: border-box;
+ }
+
+ /************************ FIN DU RESET *******************/
+
+ p{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+ }
+
+h2 , h3{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color:#362A23;
+    text-transform: uppercase;
+}
+ 
+h2 {
+    font-size: 2.4rem;
+    margin-top: 5%;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+h3 {
+    font-size: 1.5em;
+    letter-spacing: 3pt;
+    color:#E63C1F;
+    grid-area: head;
+}
+
+iframe{
+    width: 100%;
+    border: none;
+    margin: 0;
+}
+
+#first-article{
+    margin-bottom: 60px;
+    grid-row-gap: 30px;
+    display: grid;
+    grid-template-areas: "head"
+                         "texte" 
+                         "video"
+                         "photo1"
+                         "photo2"
+                         "photo3"
+                         "photo4";
+}
+
+
+#second-article{
+    margin-bottom: 60px;
+    grid-row-gap: 30px;
+    display: grid;
+    grid-template-areas: "title"
+                         "txt" 
+                         "vidéo"
+                         "picture1"
+                         "picture2"
+                         "picture3"
+                         "picture4";
+}
+
+/*****WILD FEST******/
+
+
+#Paysage-campagne{
+    grid-area: photo3;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+#chateau-NB{
+    grid-area: photo2;
+    width: 100%;
+    height: auto;
+}
+
+#Portail{
+    grid-area: photo1;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+#foule-chateau{
+    grid-area: photo4;
+    height: auto;
+    width: 100%;
+}
+
+#events-first-h3{
+    grid-area: head;
+}
+
+#first-video{
+    grid-area: video;
+    height: 100%;
+    object-fit: contain;
+    min-height: 450px;
+}
+
+#first-txt{
+    grid-area: texte;
+}
+
+/*****FRANCE DIGITAL DAYS*******/
+
+
+#presentation{
+    grid-area: picture1;
+    height: auto;
+    width: 100%;
+}
+#fdd-solo{
+    grid-area: picture2;
+    height: auto;
+    width: 100%;
+}
+
+#logo-fdd{
+    grid-area: picture3;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+#exterieur-fdd{
+    grid-area: picture4;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+#second-video{
+    grid-area: vidéo;
+    object-fit: contain;
+    height: 100%;
+    min-height: 450px;
+}
+
+#events-second-h3{
+    grid-area: title;
+}
+
+#second-txt{
+    grid-area: txt;
+}
+
+
+
+/*//////////////////////////// Responsive ////////////////////////////*/
+
+@media screen and (min-width:961px) {
+
+    #first-article{
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+        grid-template-rows: 2% 1fr;
+        display: grid;
+        grid-template-areas: "head head" 
+                             "texte texte"
+                             "video video"
+                             "photo1 photo2"
+                             "photo3 photo4";
+    }
+
+    #second-article{
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+        grid-template-rows: 2% 1fr;
+        display: grid;
+        grid-template-areas: "title title"
+                             "txt txt"  
+                             "vidéo vidéo"
+                             "picture1 picture2"
+                             "picture3 picture4";
+    }
+
+        /*****WILD FEST******/
+
+    #Paysage-campagne{
+        grid-area: photo3;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #chateau-NB{
+        grid-area: photo2;
+    }
+
+    #Portail{
+        grid-area: photo1;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #foule-chateau{
+        grid-area: photo4;
+    }
+
+    #first-video{
+        grid-area: video;
+        object-fit: contain;
+        height: 100%;
+        min-height: 450px;
+    }
+
+    #first-txt{
+        grid-area: texte;
+    }
+
+    /*****FRANCE DIGITAL DAYS*******/
+    #presentation{
+        grid-area: picture1;
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+    #fdd-solo{
+        grid-area: picture2;
+        height: auto;
+        width: 100%;
+    }
+    
+    #logo-fdd{
+        grid-area: picture3;
+        height: auto;
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    #exterieur-fdd{
+        grid-area: picture4;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+
+    #second-video{
+        grid-area: vidéo;
+        height: 100%;
+        min-height: 450px;
+        object-fit: contain;
+    }
+
+    #second-txt{
+        grid-area: txt;
+    }
+
+
+    /* MODAL CSS */
+
+    #Paysage-campagne , #chateau-NB , #Portail , #foule-chateau , #logo-fdd , #presentation , #fdd-solo , #exterieur-fdd {
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      
+      #myImg:hover {opacity: 0.7;}
+      
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+        z-index: 120;
+      }
+      
+      /* Modal Content (image) */
+      .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+      }
+      
+      /* Caption of Modal Image */
+      #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+      }
+      
+      /* Add Animation */
+      .modal-content, #caption {  
+        -webkit-animation-name: zoom;
+        -webkit-animation-duration: 0.6s;
+        animation-name: zoom;
+        animation-duration: 0.6s;
+      }
+      
+      /* @-webkit-keyframes zoom {
+        from {-webkit-transform:scale(0)} 
+        to {-webkit-transform:scale(1)}
+      }
+      
+      @keyframes zoom {
+        from {transform:scale(0)} 
+        to {transform:scale(1)}
+      } */
+      
+      /* The Close Button */
+      .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+      }
+}
+
