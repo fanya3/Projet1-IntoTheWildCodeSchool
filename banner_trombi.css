@@ -1,0 +1,91 @@
+/*//////////////////////////////////////////////*/
+/*//////////////////BANNER/////////////////////*/
+
+
+.banner {
+    width: 100%;
+    height: 250px;
+    background-image: var(--bannerImg);
+    background-repeat:  no-repeat, no-repeat;
+    background-size:  100% 100%, cover;
+    background-position:  center, center;
+    background-attachment: scroll, fixed;
+    mix-blend-mode: initial;
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family:'Rubik', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    font-size: 2rem;
+    color:#F0EDEB;
+    align-self: center;
+}
+
+
+@media screen and (max-width:961px) {
+    h1 {
+        letter-spacing: 0.2em;
+        font-size: 2.2rem;
+        color:#F0EDEB;
+        align-self: center;
+    }
+
+    .banner {
+        height: 120px;
+        margin: 0;
+    }
+    
+}
+
+
+/*//////////////////////Dark mode////////////////////////*/
+
+:root {
+    --logoImg :url(assets/pictures/logo.png);
+    --bannerImg : url(assets/pictures/banner-title-whiteborder.png), url(assets/pictures/banner-title-trombi-background.jpg);
+    --fontBrownFirst: #362A23;
+    --fontGreyFirst: #F0EDEB;
+    --fontRedFirst: #E63C1F;
+    --peopleBgGreyFirst: rgba(240, 237, 235, 0.892);
+    --peopleBgBrownFirst: rgba(54, 42, 35, 0.877);
+    --blendOrNo: multiply;
+    --florianImg: url(assets/pictures/wilder1.jpg);
+    --leonardImg: url(assets/pictures/wilder2.jpg);
+    --fannyImg: url(assets/pictures/wilder3.jpg);
+    --morganImg: url(assets/pictures/wilder4.jpg);
+    --maxenceImg: url(assets/pictures/wilder5.jpg);
+    --charlotteImg: url(assets/pictures/wilder6.jpg);
+    --thomasImg: url(assets/pictures/teacher1.jpg);
+    --jennyImg: url(assets/pictures/teacher2.jpg);
+    --abdouImg: url(assets/pictures/teacher3.jpg);
+}
+
+[data-theme="dark"] {
+    --logoImg : url(assets/pictures/logo-dark2.gif);
+    --bannerImg : url(assets/pictures/banner-title-blackborder.png), url(assets/pictures/banner-title-trombi-background.jpg);
+    --fdWhiteFirst: rgba(10, 10, 10, 0.892);
+    --fontBrownFirst: rgb(255, 255, 255);
+    --fontGreyFirst: rgb(191, 203, 230);
+    --fontRedFirst: rgba(10, 10, 12, 0.892);
+    --fontRedTitle: #960a0a;
+    --peopleBgGreyFirst: rgba(87, 115, 255, 0.892);
+    --peopleBgBrownFirst: rgba(87, 115, 255, 0.892);
+    --florianImg: url(assets/pictures/wilder1-dark.jpg);
+    --leonardImg: url(assets/pictures/wilder2-dark.jpg);
+    --fannyImg: url(assets/pictures/wilder3-dark.jpg);
+    --morganImg: url(assets/pictures/wilder4-dark.jpg);
+    --maxenceImg: url(assets/pictures/wilder5-dark.jpg);
+    --charlotteImg: url(assets/pictures/wilder6-dark.jpg);
+    --thomasImg: url(assets/pictures/teacher1-dark.jpg);
+    --jennyImg: url(assets/pictures/teacher2-dark.jpg);
+    --abdouImg: url(assets/pictures/teacher3-dark.jpg);
+}
+
+

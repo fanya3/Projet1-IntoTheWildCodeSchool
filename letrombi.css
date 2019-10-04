@@ -1,0 +1,236 @@
+
+html, body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background: var(--bgImage) no-repeat center fixed;  
+    background-size: cover;
+ }
+
+ h2 {
+
+    font-family: 'Rubik', sans-serif;
+    color: var(--fontBrownFirst);
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    text-align: center;}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    color: var(--fontGreyFirst);
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+
+h3.red-title {
+    font-family: 'Rubik', sans-serif;
+    color: var(--fontRedTitle);
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+}
+
+h4, h5{
+    text-align: center;
+}
+
+h4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+
+p{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.brown{
+    background-color: var(--peopleBgBrownFirst);
+    /* mix-blend-mode: var(--blendOrNo); */
+    color: var(--fontGreyFirst);
+}
+
+
+.grey{
+    background-color: var(--peopleBgGreyFirst);
+    /* mix-blend-mode: var(--blendOrNo); */
+    color: var(--fontRedFirst);
+}
+
+#flauz{  
+    padding:50%; 
+    background-image: var(--florianImg);  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+#leonard{
+    padding:50%;
+    background-image: var(--leonardImg);  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#fanny{
+    padding:50%;
+    background-image: var(--fannyImg);  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#morgan{
+    padding:50%;
+    background-image: var(--morganImg);  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#maxence{
+    padding:50%;
+    background-image: var(--maxenceImg);  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#charlotte{
+    padding:50%;
+    background-image: var(--charlotteImg);  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#thomas{
+    padding:50%;
+    background-image: var(--thomasImg);  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#jenny{
+    padding:50%;
+    background-image: var(--jennyImg);  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#abdou{
+    padding:50%;
+    background-image: var(--abdouImg);  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+@media screen and (min-width:961px){
+    .sectionTrombi{
+        display: grid;
+        grid-template-rows:1fr;
+    }
+
+    .oneblock, .teacher{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        grid-gap: 2rem; 
+        justify-content: space-around;
+    }
+
+    article {
+        padding: 2rem;
+    }
+
+}
+
+
+@media screen and (max-width: 960px){
+
+    .sectionTrombi{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .oneblock, .teacher{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-gap: 2rem; 
+    }
+
+    .firstplace{
+        border: 5px solid #362A23;
+        background-color: #F0EDEB;
+    }
+
+    article{
+        padding: 2rem;
+        border: 5px, solid #362A23;
+    }
+
+}
+
+/*//////////////////////Dark mode////////////////////////*/
+
+:root {
+    --bgImage: url(assets/pictures/background.jpg);
+    --fontBrownFirst: #362A23;
+    --fontGreyFirst: #F0EDEB;
+    --fontRedFirst: #E63C1F;
+    --peopleBgGreyFirst: rgba(240, 237, 235, 0.892);
+    --peopleBgBrownFirst: rgba(54, 42, 35, 0.877);
+    --blendOrNo: multiply;
+    --florianImg: url(assets/pictures/wilder1.jpg);
+    --leonardImg: url(assets/pictures/wilder2.jpg);
+    --fannyImg: url(assets/pictures/wilder3.jpg);
+    --morganImg: url(assets/pictures/wilder4.jpg);
+    --maxenceImg: url(assets/pictures/wilder5.jpg);
+    --charlotteImg: url(assets/pictures/wilder6.jpg);
+    --thomasImg: url(assets/pictures/teacher1.jpg);
+    --jennyImg: url(assets/pictures/teacher2.jpg);
+    --abdouImg: url(assets/pictures/teacher3.jpg);
+}
+
+[data-theme="dark"] {
+    --bgImage: url(assets/pictures/background-dark.jpg);
+    --fontBrownFirst: rgb(255, 255, 255);
+    --fontGreyFirst: rgb(191, 203, 230);
+    --fontRedFirst: rgba(10, 10, 12, 0.892);
+    --fontRedTitle: #960a0a;
+    --peopleBgGreyFirst: rgba(10, 10, 12, 0.892);
+    --peopleBgBrownFirst: rgba(87, 115, 255, 0.892);
+    --florianImg: url(assets/pictures/wilder1-dark.jpg);
+    --leonardImg: url(assets/pictures/wilder2-dark.jpg);
+    --fannyImg: url(assets/pictures/wilder3-dark.jpg);
+    --morganImg: url(assets/pictures/wilder4-dark.jpg);
+    --maxenceImg: url(assets/pictures/wilder5-dark.jpg);
+    --charlotteImg: url(assets/pictures/wilder6-dark.jpg);
+    --thomasImg: url(assets/pictures/teacher1-dark.jpg);
+    --jennyImg: url(assets/pictures/teacher2-dark.jpg);
+    --abdouImg: url(assets/pictures/teacher3-dark.jpg);
+}
+
+.header{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+    .moon, .sun{
+        width: 34px;
+        cursor: pointer;
+        transition: .5s all ease-in-out;
+    }
+    .sun:hover{
+        animation: sun_rotate 1s infinite;
+    }
+    .moon:hover{
+        transform: scale(1.1);
+    }
+    .hide{
+        display: none;
+    }
+
