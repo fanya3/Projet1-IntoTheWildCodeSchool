@@ -1,5 +1,5 @@
 # Oh my G! Project
-An immersive photoreport about the Wild Code School, Paris
+An immersive photoreport about the Wild Code School, Paris. A special dark mode to discover the wild side of the Wilders!.
 
 #### Homepage
 ![](./assets/pictures/intothewild-github-0.png "HomePage")
