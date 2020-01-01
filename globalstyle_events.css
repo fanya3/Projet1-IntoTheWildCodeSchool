@@ -55,7 +55,7 @@ h3.red-title {
 @media screen and (min-width:961px){
     .site{
         display: grid;
-        grid-template-rows: 230px 65px auto auto auto;
+        grid-template-rows: 160px 65px auto auto auto;
         grid-template-columns: repeat(12, 1fr);
         grid-column-gap: 25px;
         grid-row-gap: 30px;
@@ -161,21 +161,21 @@ h3.red-title {
  }
 
 
-
  @media screen and (min-width:961px) {     
     
-    .logo, .logo a{
-        display: flex;
-        justify-content: center;
-        align-content: center;
-    }
- 
-    .logo {
-        width: 690px;
-        height: auto;
-        margin: 30px auto auto auto;
-    }
- }
+    .logo a{
+         display: flex;
+         justify-content: center;
+         align-content: center;
+     }
+  
+     .logo {
+         width: 380px;
+         height: auto;
+         margin: 20px auto auto auto;
+     }
+  }
+  
  
  
  

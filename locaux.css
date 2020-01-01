@@ -137,6 +137,10 @@ section h2 {
 
 
 @media screen and (min-width:961px) {
+    p{
+        text-align: justify;
+        margin-top:1em;
+    }
     .locaux {
         display: grid;
         grid-auto-rows: 1fr;

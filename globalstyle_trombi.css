@@ -21,32 +21,6 @@ html  {
 }
 
 
-/* h2 {
-    font-family: 'Rubik', sans-serif;
-    color:#362A23;
-    font-size: 2.4rem;
-    text-transform: uppercase;
-}
-
-h3 {
-    font-family:'Rubik', sans-serif;
-    font-weight: bold;
-    color:#F0EDEB;
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 1.5pt;
-}
-
-h3.red-title {
-    font-family: 'Rubik', sans-serif;
-    color:#E63C1F;
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 1.5pt;
-} */
-
-
-
 /*////////////////////////////////////////////////////*/
 /*///////////////// GRID DESKTOP //////////////////*/
 
@@ -54,7 +28,7 @@ h3.red-title {
 @media screen and (min-width:961px){
     .site{
         display: grid;
-        grid-template-rows: 230px 65px auto auto auto;
+        grid-template-rows: 160px 65px auto auto auto;
         grid-template-columns: repeat(12, 1fr);
         grid-column-gap: 25px;
         grid-row-gap: 30px;
@@ -143,7 +117,6 @@ h3.red-title {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
-    margin-bottom: 5px;
 }
 
 
@@ -161,20 +134,22 @@ h3.red-title {
 
 
 
+ 
  @media screen and (min-width:961px) {     
     
-    .logo, .logo a{
-        display: flex;
-        justify-content: center;
-        align-content: center;
-    }
- 
-    .logo {
-        width: 690px;
-        height: auto;
-        margin: 30px auto auto auto;
-    }
- }
+    .logo a{
+         display: flex;
+         justify-content: center;
+         align-content: center;
+     }
+  
+     .logo {
+         width: 380px;
+         height: auto;
+         margin: 20px auto auto auto;
+     }
+  }
+  
  
  
  
