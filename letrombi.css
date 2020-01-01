@@ -51,14 +51,12 @@ p{
 
 .brown{
     background-color: var(--peopleBgBrownFirst);
-    /* mix-blend-mode: var(--blendOrNo); */
     color: var(--fontGreyFirst);
 }
 
 
 .grey{
     background-color: var(--peopleBgGreyFirst);
-    /* mix-blend-mode: var(--blendOrNo); */
     color: var(--fontRedFirst);
 }
 
