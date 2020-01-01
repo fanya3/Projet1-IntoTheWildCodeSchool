@@ -4,10 +4,10 @@ An immersive photoreport about the Wild Code School, Paris. A special dark mode 
 #### Homepage
 ![](./assets/pictures/intothewild-github-0.png "HomePage")
 
-#### Meal Calculation
+#### Students Trombi
 ![](./assets/pictures/intothewild-github-1.png "Trombi")
 
-#### Nutritional Informations Database
+#### Dark Mode
 ![](./assets/pictures/intothewild-github-2.png "Trombi Dark Mode")
 
 
