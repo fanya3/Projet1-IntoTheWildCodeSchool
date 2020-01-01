@@ -1,0 +1,127 @@
+/*//////////////////////////////////////////////*/
+/*//////////////////BANNER/////////////////////*/
+
+
+.bannerdesktop {
+    background-image: url(assets/pictures/banner.png);
+    position: relative;
+    width: 100%;
+    min-height: 60vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    mix-blend-mode: multiply;
+    margin-top:-50px;
+}
+
+#logodesktopbanner {
+    width: 18vw;
+    height: auto;
+    position: absolute;
+    bottom: -1%;
+    transform: rotate(340deg);
+    margin-left: 12%;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+@media screen and (max-width:961px) {
+    
+    .bannerdesktop {
+        margin-top: -20px;
+    }
+
+    #logodesktopbanner {
+        width: 35vw;
+        height: auto;
+        margin-left: 7%;
+        top: 69%;
+    }    
+
+    #textepres{
+        margin-top:3px;
+    }
+}
+
+
+
+
+
+/*//////////////////////////////////////////////*/
+/*//////////////////VIDEO+MAP/////////////////////*/
+
+@media screen and (min-width:961px) {
+
+    #tallmap {
+        width: 100%;
+        object-fit: contain;
+        height: 100%;
+        min-height: 480px;
+    }
+
+    #tallvideo {
+        width: 100%;
+        object-fit: contain;
+        height: 100%;
+        min-height: 480px;
+    }
+
+}
+
+
+@media screen and (max-width:960px) {
+    
+    #tallmap {
+        width: 100%;
+        object-fit: contain;
+        height: 100%;
+        min-height: 350px;
+    }
+
+    #tallvideo {
+        width: 100%;
+        object-fit: contain;
+        height: 100%;
+        min-height: 350px;
+    }
+
+    #logodesktopbanner {
+        width: 22vw;
+        height: auto;
+        position: absolute;
+        bottom: -1%;
+        transform: rotate(340deg);
+        margin-left: 12%;
+    }
+    
+    article {
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+}
+
+
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
