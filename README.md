@@ -1,4 +1,4 @@
-# Oh my G! Project
+# Into the Wild Code School! Project
 An immersive photoreport about the Wild Code School, Paris. A special dark mode to discover the wild side of the Wilders!.
 
 #### Homepage
